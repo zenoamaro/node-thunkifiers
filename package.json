@@ -1,0 +1,49 @@
+{
+  "name": "thunkifiers",
+  "version": "0.1.0",
+  "description": "Thunkifiers for various callback styles.",
+  "author": "zenoamaro <zenoamaro@gmail.com>",
+  "license": "MIT",
+
+  "homepage": "https://github.com/zenoamaro/node-thunkifiers",
+
+  "bugs": {
+    "url": "https://github.com/zenoamaro/node-thunkifiers/issues",
+    "email": "zenoamaro@gmail.com"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenoamaro/node-thunkifiers.git"
+  },
+
+  "main": "lib/index.js",
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/index"
+  },
+
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+
+  "keywords": [
+    "thunks",
+    "thunkify",
+    "thunkifiers",
+    "callbacks",
+    "generators"
+  ],
+
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+
+  "files": [
+    "lib",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+
+}
